@@ -1,5 +1,5 @@
 variable "ec2_count" {
-  default = "1"
+  default = "2"
 }
 variable "ami_id" {}
 variable "instance_type" {
