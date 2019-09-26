@@ -8,3 +8,7 @@ variable "instance_type" {
 
 variable "subnet_id" {}
 variable "region" {}
+
+variable "Access_key" {}
+
+variable "Secret_access_key" {}
