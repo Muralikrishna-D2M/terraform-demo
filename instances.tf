@@ -16,6 +16,6 @@ resource "aws_security_group_rule" "allow_all" {
   to_port         = 65535
   protocol        = "tcp"
   # Opening to 0.0.0.0/0 can lead to security vulnerabilities.
-  cidr_blocks = 0.0.0.0/0
+  cidr_blocks = [0.0.0.0/0]
   security_group_id = "sg-0798fd77acd72f318"
 }
