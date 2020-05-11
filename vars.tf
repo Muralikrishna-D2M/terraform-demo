@@ -5,7 +5,7 @@ variable "ami_id" {}
 variable "instance_type" {
   default = "m4.large"
 }
-
+##dfsdfwr
 variable "subnet_id" {}
 variable "region" {}
 
